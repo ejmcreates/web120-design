@@ -1,0 +1,214 @@
+/*CSS for Design Website*/
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+
+img{
+    max-width:100%;
+    display:block; 
+}
+
+/* latin */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Archivo Regular'), local('Archivo-Regular'), url(https://fonts.gstatic.com/s/archivo/v3/k3kQo8UDI-1M0wlSfdnoLg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body{
+    font-size: 100%;
+    font-family: 'Archivo',Fallback, sans-serif;
+    background:#ffcc99; 
+}
+
+header{
+    background:#b1ebff;
+    width:940px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+#logo{
+    float:left; 
+    margin:10px 20px; 
+}
+
+#social{
+    float:right; 
+    margin-top:240px; 
+    margin-right: 20px;
+}
+
+#social li{
+    list-style-type: none;
+    float:left;
+    margin-left: 20px;
+}
+
+.fab{
+    font-size: 1.5em;
+    color:#000;
+}
+
+/**** Navigation ****/
+
+#primary{
+    height:50px;
+    line-height:50px;
+    background:#ffcc99;
+    clear:both;
+}
+
+#primary ul{
+    
+    margin:0 auto; 
+}
+
+#primary li{
+    float:left;
+    list-style-type:none;
+    width:20%; 
+    text-align:center;
+}
+
+#primary a{
+    text-decoration:none;
+    color:#000;
+    display:block; 
+}
+
+#primary a:hover{
+    background:#009999;
+    color:#fff;
+}
+
+.home #primary li:nth-child(1) a,
+.explore #primary li:nth-child(2) a,
+.trips #primary li:nth-child(3) a,
+.about #primary li:nth-child(4) a,
+.contact #primary li:nth-child(5) a{
+    background: #009999;
+    color: #fff;
+}
+
+/**** End Navigation ****/
+
+#wrapper{
+    width:940px;
+    background:#fff;
+    margin:0 auto; 
+}
+
+main{
+    width:560px;
+    float:left;
+    margin-top:20px;
+    margin-left: 10px;
+}
+
+.trips main{
+    width:940px;
+}
+
+aside{
+    width:340px;
+    float:right;
+}
+
+
+figure{
+    margin-top: 20px;
+}
+
+
+figcaption{
+    padding: 10px;
+    font-style: italic;
+    font-size: .875em;
+}
+
+figure + p{
+    margin-top: 10px;
+}
+
+h3 + ul{
+    list-style: inside;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.container{
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.half{
+    width:460px;
+    float:left;
+    margin-right:20px;
+}
+
+.half:nth-child(2){
+    margin-right:0; 
+}
+
+.container img{
+    width:95%;
+}
+
+/**** Footer ****/
+footer{
+    height:50px;
+    line-height:50px;
+    clear:both;
+    background:#b1ebff; 
+}
+
+footer ul{
+    margin-left:20px; 
+}
+
+footer li{
+    list-style-type:none;
+    float:left;
+    margin-right:20px; 
+    
+}
+
+footer a{
+    color:#005b5b;
+    text-decoration:none;
+}
+/**** End Footer ****/
+
+/**** Typography ****/
+
+h1, h2, h3{
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 2.441em;
+}
+
+h2{
+   font-size: 1.953em; 
+}
+
+h3{
+   font-size: 1.563em; 
+}
+
+p{
+    line-height:1.5;
+    margin-bottom: 8px;
+    text-indent: 1em;
+    padding-right: 10px;
+}
+
